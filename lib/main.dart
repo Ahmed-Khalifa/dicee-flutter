@@ -4,10 +4,10 @@ void main() {
   return runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.red,
+        backgroundColor: Colors.deepPurple[900],
         appBar: AppBar(
-          title: Text('Dicee'),
-          backgroundColor: Colors.red,
+          title: Text('ٌRoll The Dice'),
+          backgroundColor: Colors.deepPurple[900],
         ),
         body: DicePage(),
       ),
